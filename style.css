@@ -1,0 +1,14 @@
+#box1{
+    width: 470px;
+    height: 250px;
+    background: grey;
+    font-size: 230px;
+    text-align: center;
+
+    animation: myanm;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes myanm{
+    50%{transform: scale(0.5, 0.5);}
+}
